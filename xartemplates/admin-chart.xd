@@ -1,0 +1,35 @@
+<div class="xar-mod-page">
+    <div class="xar-mod-head">
+        <xar:if condition="!xarRequestIsAJAX()">
+            <xar:template type="module" module="base" file="admin-menu" />
+        </xar:if>
+    </div>
+    <div class="xar-mod-body">
+        <h1><xar:mlstring>Chart sniffs</xar:mlstring></h1>
+        <div class="xar-mod-content">
+
+             <form action="&xar-modurl-sniffer-admin-showchart;" method="post" target="_blank">
+             <fieldset>
+                 <legend><xar:mlstring>Chart options</xar:mlstring></legend>
+                 <div class="xar-form-input-wrapper-after">
+                    <input type="radio" value="osnam" name="snifftype" id="osnam" checked="checked" />
+                    <label><xar:mlstring>OS Name</xar:mlstring></label>
+                 </div>
+                 <div class="xar-form-input-wrapper-after">
+                    <input type="radio" value="osver" name="snifftype" id="osver" />
+                   <label><xar:mlstring>OS Version</xar:mlstring></label>
+                 </div>
+
+                 <div class="xar-form-input-wrapper-after">
+                    <input type="radio" value="agnam" name="snifftype" id="agnam" />
+                    <label><xar:mlstring>Browser Name</xar:mlstring></label>
+                 </div>
+
+             </fieldset>
+            <div class="xar-form-footer">
+                    <input type="submit" value="#xarML('Generate Pie Chart')#"/>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>

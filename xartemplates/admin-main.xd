@@ -1,0 +1,49 @@
+<div class="xar-mod-page">
+    <div class="xar-mod-head">
+        <xar:if condition="!xarRequestIsAJAX()">
+            <xar:template type="module" module="base" file="admin-menu" />
+        </xar:if>
+    </div>
+    <div class="xar-mod-body">
+        <h1><xar:mlstring>Overview</xar:mlstring></h1>
+        <div class="xar-mod-content">
+          <img src="#xarTplGetImage('admin_generic.gif','base')#" class="xar-module-icon" alt="official icon" width="96" height="96" />
+          <h2><xar:mlstring>What is it?</xar:mlstring></h2>
+              <p>
+                    <xar:mlstring>The Sniffer module is a utility module used for browser detection.
+                    It is used in a number of modules where browser detection is a key part of the functionality
+                    such as Statistics and Netquery module that offer a user interface for display of browsers detected.
+                    </xar:mlstring>
+              </p>
+              <h3>
+                   <xar:mlstring>How to use it?</xar:mlstring>
+              </h3>
+                <p><xar:mlstring>Once the Sniffer module is installed it will automatically detect a visitors OS and browser using
+                inbuilt Xaraya eventapi system. </xar:mlstring></p>
+                <p><xar:mlstring>
+                    In addition to browser detection the Sniffer module also offers a basic list facility displaying all browser sniffs,
+                    as well as a graphing facility that charts all browser sniffs on your site.</xar:mlstring></p>
+
+              <h3>
+                    <xar:mlstring>Included Blocks</xar:mlstring>
+              </h3>
+              <p><xar:mlstring>There are no included blocks with this module.</xar:mlstring></p>
+              <h3><xar:mlstring>Included Hooks</xar:mlstring></h3>
+              <p><xar:mlstring>There are no included hooks with this module.</xar:mlstring></p>
+          <h3><xar:mlstring>Further Information</xar:mlstring>
+          </h3>
+          <p>
+            <xar:mlstring>Further information on the Xarigami Sniffer module can be found at</xar:mlstring>
+          </p>
+          <ul>
+            <li><xar:mlstring>xarigami Sniffer Project page at</xar:mlstring> <a title="#xarML('Sniffer Module - Project Page')#" href="http://xarigami.com/project/xarigami_sniffer">xarigami Project Pages</a>.
+            </li>
+          </ul>
+            <p class="xar-sub">
+                    <xar:mlstring>
+                        Sniffer Module Overview 2010-01-22 Revision 1.0.2 for Xarigami Sniffer V1.1.1
+                    </xar:mlstring>
+            </p>
+        </div>
+    </div>
+</div>
