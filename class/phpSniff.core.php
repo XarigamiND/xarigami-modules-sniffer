@@ -421,7 +421,7 @@ class phpSniff_core
 
     function _build_regex ()
     {   $browsers = '';
-        while(list($k,) = each($this->_browsers))
+        foreach($this->_browsers as $k => $k___)
         {   if(!empty($browsers)) $browsers .= "|";
             $browsers .= $k;
         }
