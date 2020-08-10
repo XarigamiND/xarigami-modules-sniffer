@@ -32,11 +32,9 @@
               <p><xar:mlstring>There are no included hooks with this module.</xar:mlstring></p>
           <h3><xar:mlstring>Further Information</xar:mlstring>
           </h3>
-          <p>
-            <xar:mlstring>Further information on the Xarigami Sniffer module can be found at</xar:mlstring>
-          </p>
           <ul>
-            <li><xar:mlstring>xarigami Sniffer Project page at</xar:mlstring> <a title="#xarML('Sniffer Module - Project Page')#" href="http://xarigami.com/project/xarigami_sniffer">xarigami Project Pages</a>.
+            <li><a href="http://xarigami.org/project/xarigami_sniffer"><xar:mlstring>Xarigami Sniffer project page</xar:mlstring></a></li>
+            <li><a href="http://xarigami.org/contrails/displayproject/xsniff"><xar:mlstring>Xarigami Sniffer issue tracker</xar:mlstring></a></li>
             </li>
           </ul>
             <p class="xar-sub">
